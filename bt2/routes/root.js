@@ -6,7 +6,7 @@ const rootRouter = express.Router();
 
 rootRouter.get("/", HomeController.Home);
 rootRouter.get("/Vehicle", VehicleController.Vehicle);
-rootRouter.get("/Login", LoginController.Login);
+rootRouter.get("/login", LoginController.Login);
 rootRouter.post("/login", LoginController.handleLogin);
 
 export default rootRouter;

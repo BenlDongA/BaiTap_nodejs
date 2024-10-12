@@ -7,7 +7,7 @@ const port = 3000;
 
 app.set('view engine', 'ejs');
 app.set('views', './bt2/views');
-
+app.use(express.urlencoded({ extended: true }));
 app.use("/", rootRouter);
 app.use("/Login", rootRouter);
 
