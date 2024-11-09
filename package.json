@@ -7,14 +7,19 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "nodemon bt2/app.js"
+    "start": "nodemon bt_CRUD/index.js"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.20",
     "body-parser": "^1.20.3",
     "bootstrap-icons": "^1.11.3",
     "ejs": "^3.1.10",
     "express": "^4.21.1",
     "fs": "^0.0.1-security",
-    "nodemon": "^3.1.7"
+    "method-override": "^3.0.0",
+    "mongoose": "^8.8.1",
+    "nodemon": "^3.1.7",
+    "postcss": "^8.4.47",
+    "postcss-cli": "^11.0.0"
   }
 }
