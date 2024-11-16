@@ -7,7 +7,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "nodemon bt_CRUD/index.js"
+    "start": "nodemon ktzui/index.js"
   },
   "dependencies": {
     "autoprefixer": "^10.4.20",
