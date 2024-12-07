@@ -7,7 +7,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "nodemon ktzui/index.js"
+    "start": "nodemon kt7_12/index.js"
   },
   "dependencies": {
     "autoprefixer": "^10.4.20",
@@ -16,6 +16,7 @@
     "ejs": "^3.1.10",
     "express": "^4.21.1",
     "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
     "method-override": "^3.0.0",
     "mongoose": "^8.8.1",
     "nodemon": "^3.1.7",
